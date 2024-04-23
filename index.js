@@ -64,7 +64,7 @@ gsap.to("#about h3 span", {
     scrollTrigger: {
         trigger: "#about",
         start: "top 50%",
-        end: "top 10%", 
+        end: "top 22%", 
         scrub: 3 
         
     }
