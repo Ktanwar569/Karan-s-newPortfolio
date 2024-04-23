@@ -65,8 +65,8 @@ gsap.to("#about h3 span", {
         trigger: "#about", // Use the #about section as the trigger
         start: "top 50%", // Start the animation when the top of #about is at 50% of the viewport
         end: "top 10%", // End the animation when the top of #about is at 10% of the viewport
-        scrub: 3 ,// Allow the animation to be scrubbed (smoothly updated) based on scroll position
-        markers:true
+        scrub: 3 // Allow the animation to be scrubbed (smoothly updated) based on scroll position
+        
     }
 });
 
