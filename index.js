@@ -45,7 +45,7 @@ function all() {
  
 }
 function clutter(){
-     // JavaScript code to modify h3 content
+    
 var allh3 = document.querySelectorAll("#about h3");
 allh3.forEach(function(elem) {
     var clutter = "";
@@ -57,15 +57,15 @@ allh3.forEach(function(elem) {
     elem.innerHTML = clutter;
 });
 
-// GSAP animation to apply color to spans with stagger effect
+
 gsap.to("#about h3 span", {
     color: "gray",
-    stagger: 0.1, // Adjust the stagger value to control the timing between each span
+    stagger: 0.1, 
     scrollTrigger: {
-        trigger: "#about", // Use the #about section as the trigger
-        start: "top 50%", // Start the animation when the top of #about is at 50% of the viewport
-        end: "top 10%", // End the animation when the top of #about is at 10% of the viewport
-        scrub: 3 // Allow the animation to be scrubbed (smoothly updated) based on scroll position
+        trigger: "#about",
+        start: "top 50%",
+        end: "top 10%", 
+        scrub: 3 
         
     }
 });
