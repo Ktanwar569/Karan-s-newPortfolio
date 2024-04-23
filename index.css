@@ -363,6 +363,7 @@ header{
     text-align:center;
     flex-direction: column;
     padding-top: 3vw;
+    /* background-color: rgb(14, 54, 14); */
 }
 #about h1{
     cursor: pointer;
@@ -376,7 +377,7 @@ header{
     padding: 1.5vw;
     font-size: 2vw;
     font-weight: 500;
-    color: gray;
+    color: rgb(227, 218, 218);
 }
 
 #page4 {
