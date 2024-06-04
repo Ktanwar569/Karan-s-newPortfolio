@@ -379,6 +379,44 @@ header{
     font-weight: 500;
     color: rgb(227, 218, 218);
 }
+#Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+#contactBox{
+    width: 100%;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+#contactBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+#contactBox input{
+    padding: .5vw;
+    border-radius: 10px;
+}
+#contactBox textarea{
+    padding: .5vw;
+    border-radius: 10px;
+    resize: none;
+   
+}
+#contactBox button{
+    padding-inline: 3vw;
+    padding-block: 1vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
 
 #page4 {
 
@@ -746,6 +784,44 @@ header{
 
     }
 
+    #Contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: yellow; */
+    }
+    #contactBox{
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        border: .5px solid black;
+    }
+    #contactBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+    #contactBox input{
+        padding: .5vw;
+        border-radius: 10px;
+    }
+    #contactBox textarea{
+        padding: .5vw;
+        border-radius: 10px;
+        resize: none;
+       
+    }
+    #contactBox button{
+        padding-inline:5vw;
+        font-size: 5vw;
+        border-radius: 30px;
+        cursor: pointer;
+    
+    }
+    
+
     #page4 {
 
         /* height: 50%; */
@@ -801,4 +877,3 @@ header{
 
   
 }
-
