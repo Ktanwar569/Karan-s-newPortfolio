@@ -1,11 +1,11 @@
 @font-face {
     font-family: head;
-    src: url(./Gilroy-Regular.ttf);
+    src: url(./logo/Gilroy-Regular.ttf);
    
 }
 @font-face {
     font-family: tail;
-    src: url(./Shaloems.ttf);
+    src: url(./logo/Shaloems.ttf);
    
 }
 * {
