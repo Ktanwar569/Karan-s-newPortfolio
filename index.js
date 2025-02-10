@@ -42,35 +42,35 @@ function all() {
         }
     });
 
- 
+
 }
-function clutter(){
-    
-var allh3 = document.querySelectorAll("#about h3");
-allh3.forEach(function(elem) {
-    var clutter = "";
-    var h3text = elem.textContent;
-    var split = h3text.split("");
-    split.forEach(function(e) {
-        clutter += `<span>${e}</span>`;
+function clutter() {
+
+    var allh3 = document.querySelectorAll("#about h3");
+    allh3.forEach(function (elem) {
+        var clutter = "";
+        var h3text = elem.textContent;
+        var split = h3text.split("");
+        split.forEach(function (e) {
+            clutter += `<span>${e}</span>`;
+        });
+        elem.innerHTML = clutter;
     });
-    elem.innerHTML = clutter;
-});
 
 
-gsap.to("#about h3 span", {
-    color: "gray",
-    stagger: 0.1, 
-    scrollTrigger: {
-        trigger: "#about",
-        start: "top 50%",
-        end: "top 22%", 
-        scrub: 3 
-        
-    }
-});
+    gsap.to("#about h3 span", {
+        color: "gray",
+        stagger: 0.1,
+        scrollTrigger: {
+            trigger: "#about",
+            start: "top 50%",
+            end: "top 22%",
+            scrub: 3
 
-    
+        }
+    });
+
+
 }
 all();
 clutter();
