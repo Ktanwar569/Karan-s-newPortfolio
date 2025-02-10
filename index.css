@@ -724,7 +724,7 @@ header {
         /* margin-top: 4vh; */
         /* gap: 1vw; */
         /* border: 2px solid red; */
-        min-height: 100vh;
+        /* min-height: 100vh; */
     }
 
     .box1 video {
@@ -736,10 +736,10 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        /* gap: vw; */
-        height: 30vh;
-        width: 100vw;
-        /* border: 2px solid red; */
+        gap: 0vw;
+        height: 25vh;
+        width: 100%;
+        /* border: 2px solid black; */
 
     }
 
@@ -784,10 +784,14 @@ header {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        /* border: 1px solid red; */
     }
 
     #page3 h1 {
         font-size: 10vw;
+        background: linear-gradient(to left,black,green,rgb(75, 75, 24),blue,rgb(255, 51, 0));
+        -webkit-background-clip: text;
+        color: transparent;
     }
 
     #page3 h4 {
@@ -798,12 +802,13 @@ header {
     #page3 .box2 {
         /* text-align: center; */
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: flex-start;
+        flex-wrap: wrap;
         padding: 2vw;
-        margin-top: 4vh;
-        height: 100px;
-        width: 90%;
+        margin-top: 0vw;
+        /* height: 100px; */
+        width: 65%;
         background-color: #ffffff;
         cursor: pointer;
         /* border: 1px solid red; */
@@ -811,8 +816,13 @@ header {
     }
 
     #page3 .box2 img {
+
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        aspect-ratio: 10 / 10;
         cursor: pointer;
-        width: 9.5vw;
+        width: 12.5vw;
         transition: all ease 3s;
 
     }
@@ -839,6 +849,7 @@ header {
         cursor: pointer;
         font-size: 12vw;
         font-weight: 500;
+        
     }
 
     #about h3 {
@@ -938,8 +949,9 @@ header {
     }
 
     #page4 #btncont a {
+        font-size: 5vw;
         text-decoration: none;
-        color: black;
+        
     }
 
     #page4 #left h3 {
@@ -949,6 +961,7 @@ header {
     #page4 i {
 
         color: red;
+
     }
 
     #page4 #left #p {
